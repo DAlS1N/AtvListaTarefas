@@ -14,16 +14,16 @@ public class TaskModel {
 
     private String titulo;
 
-    private String Descricao;
+    private String descricao;
 
 
 
     public String getDescricao() {
-        return Descricao;
+        return descricao;
     }
 
     public void setDescricao(String descricao) {
-        Descricao = descricao;
+        this.descricao = descricao;
     }
 
     public Integer getId() {
