@@ -26,6 +26,9 @@ public class UserService {
 
     }
 
+    public UserModel createModel (UserModel user){
+        return userRepository.save(user);
+    }
 
 
 }
