@@ -16,9 +16,6 @@ public class UserService {
     private UserRepository userRepository;
 
 
-    /*
-    @Return User
-     */
 
 
     public List<UserModel> getAllUser(){
